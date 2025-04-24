@@ -3,6 +3,7 @@ import { createStaticNavigation } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/screens/Home';
 import EditarTarefa from './src/screens/EditTask';
+import "./global.css"
 
 
 const RootStack = createNativeStackNavigator({
